@@ -47,6 +47,9 @@
 	font-size: 16px;
 	padding: 0 3px;
 }
+.order-first .banner_image_right{
+	display: none !important;
+}
 }
 /* -------------------------------------------------
   min-width: 991px and max-width: 1199px
@@ -58,6 +61,9 @@
 .half-info li {
     float: none;
     width: 100%;
+}
+.order-first .banner_image_right{
+	display: none !important;
 }
 }
 /* -------------------------------------------------
@@ -726,11 +732,17 @@ header.nav-fixed {
 .banner_partner_logo {
     padding: 10px;
 }
+.order-first .banner_image_right{
+	display: none !important;
+}
 }
 /* -------------------------------------------------
   max-width: 767px
 ---------------------------------------------------*/
 @media only screen and (max-width: 767px) {
+.About_robot{
+	display:none !important;
+}
 section,
 .top_footer {
 	padding: 50px 0;
@@ -1026,6 +1038,9 @@ section.small_pb {
   max-width: 640px
 ---------------------------------------------------*/
 @media only screen and (max-width: 640px) {
+.about_robot{
+	display:none;
+}
 p,
 .footer_title {
 	margin-bottom: 15px;
@@ -1047,6 +1062,9 @@ p,
   max-width: 580px
 ---------------------------------------------------*/
 @media only screen and (max-width: 580px) {
+.About_robot{
+	display:none;
+}
 .large_space {
 	margin-top: 30px;
 }
@@ -1190,6 +1208,9 @@ p,
 /*Demo list css*/
 .demo .txt {
 	font-size: 14px;
+}
+.About_robot{
+	display:none;
 }
 .demo li a {
 	font-size: 23px;
@@ -1544,6 +1565,9 @@ section.small_pb {
 .title_purple_dark h4,
 .title_cyan_dark h4 {
 	font-size: 20px;
+}
+.about_robot{
+	display:none;
 }
 .btn + .btn:last-child {
 	margin-left: 0px;
